@@ -1,0 +1,6 @@
+build-anki:
+  container_name: build-anki-container
+  image: build-ank-image:latest
+  volumes:
+    - "./anki:/anki"
+  entrypoint: sleep infinity
