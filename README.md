@@ -24,6 +24,8 @@ follow its instructions and add it to your PATH after installation:
 
 `echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> /root/.bashrc`
 
+`source $HOME/.cargo/env`
+
 ## Build source code
 
 follow development instructions in anki repo
